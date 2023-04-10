@@ -2,6 +2,7 @@ package modelos
 
 import "time"
 
+//Usuário representa um usuário utilizando a rede social
 type Usuario struct {
 	ID       uint64    `json:"id,omitempty"`
 	Nome     string    `json:"nome,omitempty`
